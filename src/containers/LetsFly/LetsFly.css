@@ -1,0 +1,125 @@
+.aviation_letsFly{
+    display: flex;
+    margin-top: 100px;
+}
+.aviation__letsFly-image-container{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.aviation__letsFly-image-container .image1{
+    position: relative;
+    left: 40px;
+}
+.aviation__letsFly-image-container .image2{
+    position: absolute;
+    left: -80px;
+    top: -35px;
+}
+.aviation__letsFly-image-container .image3{
+    position: absolute;
+    left: 280px;
+    bottom: 0;
+}
+.aviation__letsFly-image-container .star, .clouds, .airplaneticket, .newyourk{
+    position: absolute;
+}
+
+.aviation__letsFly-image-container .airplaneticket{
+    bottom: 120px;
+    left: -40px;
+}
+.aviation__letsFly-image-container .newyourk{
+    bottom: 0;
+    z-index: 1;
+    left: -20px;
+}
+.aviation__letsFly-image-container .clouds{
+    top: 0;
+    left: 266px;
+    z-index: 1;
+}
+.aviation__letsFly-image-container .star{
+    top: 100px;
+    left: 350px;
+    z-index: 1;
+}
+.aviation__letsFly-text{
+    flex: 1;
+    
+}
+.aviation__letsFly-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aviation__letsFly-text h4{
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+color: #313EF7;
+}
+.aviation__letsFly-text h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 45px;
+
+color: #030303;
+
+}
+.aviation__letsFly-text ul{
+    margin: 40px 0;
+    list-style: none;
+    
+}
+.aviation__letsFly-text ul li::before {
+    content: "\2022";  
+    color: #313EF7;; 
+    font-weight: bold;  
+    display: inline-block;
+    width: 20px; 
+    font-size: 50px;
+  }
+
+.aviation__letsFly-text li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #030303;
+display: flex;
+align-items: flex-start;
+}
+.aviation_letsFly{
+    padding-bottom: 5rem;
+}
+.aviation__letsFly-text button{
+    border: none;
+padding: 14px 45px;
+gap: 10px;
+width: 200px;
+height: 56px;
+background: #313EF7;
+box-shadow: 0px 10px 14px rgba(49, 62, 247, 0.25);
+border-radius: 56px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.aviation__letsFly-text button p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+text-transform: capitalize;
+}

@@ -1,0 +1,69 @@
+.aviation__footer{
+    margin-top: 100px;
+    padding: 30px 60px;
+    background: #010223;
+    background-image: url("../../assets/Map.png");
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.aviation__footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.aviation__footer-container div:first-child{
+    flex: 0.4;
+}
+.aviation__footer-container div:first-child p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin: 24px 0;
+color: #A7A7A7;
+}
+.aviation__footer-social img{
+    max-width: 42px;
+max-height: 41.85px;
+}
+.aviation__footer-copyright{
+    padding-top: 1rem;
+    text-align: center;
+    font-family:var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+border-top: 3px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.aviation__footer-adress h4, .aviation__footer-about h4,
+.aviation__footer-support
+ h4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.aviation__footer-adress p, .aviation__footer-about p,
+.aviation__footer-support
+ p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #A7A7A7;
+margin: 1rem 0;
+ }
+
+ .aviation__footer-container{
+    padding: 100px 120px 30px 120px;
+ }

@@ -1,0 +1,20 @@
+.aviation__features{
+    margin-top: 237px;
+}
+.aviation__features-heading{
+    text-align: center;
+}
+.aviation__features-heading h1{
+    font-family: var(font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.015em;
+text-transform: capitalize;
+color: #030522;
+}
+.aviation__features-container{
+    display: flex;
+}

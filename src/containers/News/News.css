@@ -1,0 +1,46 @@
+.aivation__news{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 453px;
+}
+.aviation__news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.aivation__news h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.015em;
+text-transform: capitalize;
+
+color: #011736;
+}
+.aviation__news-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aviation__news-button button{
+    padding: 10px 25px;
+border: none;
+width: 132px;
+height: 48px;
+background: #313EF7;
+border-radius: 56px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+}
+

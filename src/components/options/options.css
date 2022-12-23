@@ -1,0 +1,23 @@
+.aviation__options{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.aviation__options-text h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+margin-bottom: .3rem;
+color: #030522;
+}
+
+.aviation__options-text p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #AEB5BF;
+}

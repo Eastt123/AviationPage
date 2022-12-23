@@ -1,0 +1,124 @@
+.aviation__feedback{
+    margin: 100px 0;
+    padding: 0 7.5rem;
+}
+.aviation__feedback__cotainer{
+    display: flex;
+}
+.aviation__feedback__container-icons{
+    position: relative;
+    flex: 1.4;
+}
+.aviation__feedback__container-user{
+    flex: 1;
+    padding: 30px;
+}
+.aviation__feedback__container__user-container{
+    display: flex;
+    align-items: center;
+}
+.aviation__feedback-heading{
+    margin-bottom: 60px;
+}
+.aviation__feedback-heading p{
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #313EF7;
+}
+.aviation__feedback-heading h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.015em;
+text-transform: capitalize;
+
+color: #011736;
+}
+.aviation__feedback__container__user-container img:first-child{
+    width: 60px;
+height: 60px;
+}
+.aviation__feedback__container__user-container h4{
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #011736;
+opacity: 0.9;
+}
+.aviation__feedback__container__user-text{
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 500;
+font-size: 18px;
+line-height: 34px;
+color: #1B1B1C;
+
+}
+.aviation__feedback__container-icons img:nth-child(1){
+    position: absolute;
+    left: 76.15px;
+top: 66.51px;
+
+}
+.aviation__feedback__container-icons img:nth-child(2){
+    position: absolute;
+    left: 224.66px;
+top: 69.36px;
+}
+.aviation__feedback__container-icons img:nth-child(3){
+    position: absolute;
+    left: 463.63px;
+top: 71.27px;
+
+}
+.aviation__feedback__container-icons img:nth-child(4){
+    position: absolute;
+    left: 121.85px;
+    top: 194.09px;
+}
+.aviation__feedback__container-icons img:nth-child(5){
+    position: absolute;
+    left: 259.89px;
+    top: 154.56px
+}
+.aviation__feedback__container-icons img:nth-child(6){
+    position: absolute;
+    left: 410.32px;
+    top: 157.91px;
+
+}
+.aviation__feedback__container-icons img:nth-child(7){
+    position: absolute;
+    left: 476.01px;
+top: 176.92px;
+    
+
+}
+.aviation__feedback-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.aviation__feedback-nav button{
+    width: 50px;
+height: 50px;
+border-radius: 56px;
+    border: none;
+    cursor: pointer;
+}
+.aviation__feedback-nav button:first-child{
+    background: rgba(49, 62, 247, 0.1);
+    
+}
+.aviation__feedback-nav button:last-child{
+    background: #313EF7;
+box-shadow: 0px 10px 14px rgba(49, 62, 247, 0.25);
+}

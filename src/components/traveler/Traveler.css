@@ -1,0 +1,24 @@
+.aviation__traveler{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aviation__traveler div:first-child img{
+    margin: -20px 0px;
+}
+
+.aviation__traveler h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #011736;
+    
+}
+.aviation__traveler p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #979797;
+}

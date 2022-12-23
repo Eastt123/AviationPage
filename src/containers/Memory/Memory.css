@@ -1,0 +1,30 @@
+.aviation__memory h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: #011736;
+}
+.aviation__memory-imgs{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.aviation__memory-imgs img{
+    max-height: 390px;
+}
+
+.aviation__memory-imgs img:nth-child(2){
+    position: relative;
+    top: 60px;
+}
+
+.aviation__memory-imgs img:nth-child(4){
+position: relative;
+top: 60px;
+}

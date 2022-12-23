@@ -1,0 +1,74 @@
+.aviation__booking{
+    padding: 0 7.5rem;
+    position: absolute;
+    width: 100%;
+    bottom: -180px;
+    max-width: 1440px;
+    
+}
+.aviation__booking-container{
+    background: #FFFFFF;
+box-shadow: 0px 100px 200px rgba(1, 23, 54, 0.1);
+border-radius: 0px 20px 20px 20px;
+padding-bottom: 40px;
+
+}
+.aviation__booking-container_navigation{
+    display: flex;
+    border-radius: 50px;
+}
+.aviation__booking-container_navigation div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    width: 173.33px;
+    background-color: white;
+    cursor: pointer;
+}
+.aviation__booking-container_navigation div:first-child{
+    border-radius: 20px 0px 0px 0px;
+}
+.aviation__booking-container_navigation div:last-child{
+    border-radius: 0px 30px 0px 0px;
+}
+
+.aviation__booking-container_navigation h3{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+text-transform: capitalize;
+color: #030522;
+}
+.aviation__booking-container_options{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aviation__booking-bookbtn{
+    cursor: pointer;
+padding: 14px 45px;
+gap: 10px;
+width: 200px;
+height: 56px;
+background: #313EF7;
+box-shadow: 0px 10px 14px rgba(49, 62, 247, 0.25);
+border-radius: 56px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+text-transform: capitalize;
+}
+.aviation__booking-brtContainer{
+    width: 100%;
+    text-align: center;
+}

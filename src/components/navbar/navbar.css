@@ -1,0 +1,47 @@
+.avition__navbar{
+    padding: 1.25rem 7.5rem;
+}
+.aviation__navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aviation__navbar-links_logo{
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.aviation__navbar-links_logo img{
+    width: 164px;
+height: 34px;
+}
+
+.aviation__navbar-links_container{
+    display: flex;
+    align-items: center;
+}
+
+.aviation__navbar-links_container p,
+ .aviation__navbar-btn p{
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+margin: 0 1rem;
+padding: 0 10px;
+}
+.aviation__navbar-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 59px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+

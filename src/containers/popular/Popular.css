@@ -1,0 +1,206 @@
+
+.aviation__popular{
+padding: 50px 165px;
+gap: 10px;
+background: #010223;
+}
+.aviation__popular-container{
+    display: flex;
+    gap: 100px;
+}
+.aviation__popular-heading{
+    flex: 1;
+}
+.aviation__popular-heading h1{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+letter-spacing: 0.015em;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+.aviation__popular-heading p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.65);
+}
+.aviation__popular-heading img{
+    margin-top: 1.5rem;
+}
+.aviation__popular-ticket-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aviation__popular__inputs-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aviation__popular__inputs-heading>h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #313EF7;
+}
+.aviation__popular__inputs__heading-directions h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+text-align: center;
+color: #030522;
+margin: 0 .5rem;
+}
+.aviation__popular__inputs__heading-directions{
+    display: flex;
+    align-items: center;
+}
+
+.aviation__popular__tickets-container{
+    background: #FFFFFF;
+    border-radius: 30px;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    max-width: 390px
+}
+.aviation__popular__inputs-barcode img{
+    width: 100%;
+    height: 100%;
+}
+.aviation__popular__inputs{
+    padding: 30px;
+    z-index: 2;
+}
+.aviation__popular__inputs-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+.aviation__popular__inputs-barcode{
+    margin: 47px 17px 30px 17px;
+    display: flex;
+    justify-content: center;
+}
+.aviation__popular__ticket__container-dashes{
+    height: 0px;
+    width: 100%;
+    border: 1px dashed #868D96;
+}
+.aviation__popular-tickets{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+.backgroundOne{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    left: 20px;
+    top: 20px;
+    border-radius: 30px;
+}
+.backgroundTwo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 40px;
+    top: 40px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.backgroundThree{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.aviation__popular__tickets__navigation{
+    width: 100%;
+    height: 100%;
+    flex: .3;
+}
+.aviation__popular__tickets__navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aviation__popular__tickets__navigation-dots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 3rem 0;
+}
+
+.aviation__popular__tickets__navigation-dots div:first-child{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+.aviation__popular__tickets__navigation-dot{
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.nav-dashes{
+    height: 150px;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    width: 0.5px;
+}
+.aviation__popular__tickets__navigation-btn{
+    display: flex;
+}
+.aviation__popular__tickets__navigation-btn{
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+.aviation__popular__tickets__navigation-btn button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.aviation__popular__tickets__navigation-btn button:first-child{
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.aviation__popular__tickets__navigation-btn button:last-child{
+    
+    background: #313EF7;
+    box-shadow: 0px 10px 14px rgba(49, 62, 247, 0.25);
+}
+.aviation__popular__inputs h3{
+    margin-bottom: 1rem;
+}
